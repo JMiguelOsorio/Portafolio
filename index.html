@@ -5,18 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio JOSÉ MIGUEL OSORIO DÁVILA</title>
+    <link rel="stylesheet" href="./css/celular.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 600px)">
+    <link rel="stylesheet" href="./css/computador.css" media="screen and (min-width: 800px)">
+    
 </head>
 <body>
 
     
     <header>
-        <h1><p style= "color:darkolivegreen ";>MI PORTAFOLIO</p></h1>
+        <h1 class="TITULO"><p>MI PORTAFOLIO</p></h1>
         <b>Aquí podrás encontrar mis propósitos, quién soy, mis actividades
             lista de mis páginas de mi interés, mis cursos, mi horario y agenda
             y mi contacto.
-            <figure align="right">
-                <img src="./recursos/foto_joseMiguel.jpg" width="200" alt="Foto Jose Miguel">  
-           </figure>
+            <picture>
+                <source media="screen and (min-width: 800px)" srcset="./recursos/foto_joseMiguel.jpg">
+                <source media="screen and (min-width: 600px)" srcset="./recursos/imagentablett.jpg">
+                <img src="./recursos/imagencelular.jpg">  
+            </picture>
         </b>
 
     </header>
@@ -25,13 +31,16 @@
 
 
         <section>
-            <h3>PROPÓSITOS</h3>
-            <p>Tengo como propósitos de este año, culminar el curso de ingles para tener certificación de B2, además finalizar 
-                todas las materias y cursos programados en el pregrado como Ingeniero en telecomunicaciones según la Universidad
-                Bolivariana, también estaré en busca de empresas, compañias y trabajos disponibles relacionadas con mi carrera
-                para poder aplicar a ellas y empezar mi vida laboral.
-            </p>
-            <br>
+            <div>
+                <h3>PROPÓSITOS</h3>
+                <p>Tengo como propósitos de este año, culminar el curso de ingles para tener certificación de B2, además finalizar 
+                    todas las materias y cursos programados en el pregrado como Ingeniero en telecomunicaciones según la Universidad
+                    Bolivariana, también estaré en busca de empresas, compañias y trabajos disponibles relacionadas con mi carrera
+                    para poder aplicar a ellas y empezar mi vida laboral.
+                </p>
+            </div>
+            
+        
 
             <h3>¿QUIÉN SOY?</h3>
             <p>Soy José Miguel Osorio Dávila, soy de Popayán-Cauca, tengo 20 años de edad, estudiante de 
@@ -39,7 +48,7 @@
                 semestre en la Universidad Pontificia Bolivariana de Medellín-Antioquia, me gusta mucho el deporte y actualmente vivo en
                 la ciudad de Medellín.
             </p>
-            <br>
+
 
         </section>
 
