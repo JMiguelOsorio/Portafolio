@@ -2,8 +2,17 @@
     
 }
 
+header{
+    position: sticky;
+    top: 0;
+    background-color: #E6312A;
+    text-align: center;
+}
 .parrafo{
-    color: #E0724A;
+    color: #FC4821;
     display: inline-block;
     text-align: center;
+}
+img{
+    width: 40%;
 }
