@@ -1,23 +1,29 @@
 @media (min-width:500px) {
     
 }
-/* *{
-    background-color: #6DBEF2;
-} */
+
 
 main{
     background-color: #6DBEF2;
+    display: inline-block;
+    text-align: center;
 }
 header{
     position: sticky;
     top: 0;
-    background-color: #5F3FFC;
+        
     text-align: center;
 }
-.parrafo{
-    color: #8D3DF2;
-    display: inline-block;
+.parrafo1{
     text-align: center;
+}
+
+.parrafo2{
+    text-align: justify;
+}
+
+.parrafo3{
+    text-align:left;
 }
 
 img{
@@ -26,4 +32,5 @@ img{
 
 h1{
     background-color: #5F3FFC;
+    color: #140853;
 }

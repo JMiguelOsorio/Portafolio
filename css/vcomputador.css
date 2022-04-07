@@ -2,17 +2,34 @@
     
 }
 
+
+main{
+    background-color: #C6F0C5;
+}
+
 header{
     position: sticky;
     top: 0;
-    background-color: #E6312A;
     text-align: center;
 }
-.parrafo{
-    color: #FC4821;
-    display: inline-block;
-    text-align: center;
+
+.parrafo1{
+    text-align: justify;
+}
+
+.parrafo2{
+    text-align: right;
+}
+
+.parrafo3{
+    text-align:center;
 }
 img{
     width: 40%;
 }
+
+h1{
+    background-color: #A7D6A9;
+}
+
+
