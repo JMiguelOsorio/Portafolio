@@ -1,0 +1,23 @@
+Cambiar la fuente, el tamaño y que el texto no llegue hasta el borde
+cambiar el fondo 
+mover los espacios en blanco
+foto muy grande y quiza a un lado mejor
+
+
+entre vistas que haya mas relación en colores y la imagen (la misma pero distintos tamaños)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.div3 a{}
+
