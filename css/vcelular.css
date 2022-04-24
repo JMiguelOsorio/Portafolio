@@ -4,7 +4,7 @@
 
 
 *{
-    margin: 10px;
+    margin: 15px;
     margin-bottom: 0;
     padding: 0;
     font: small-caps 100%/200% serif;
@@ -43,4 +43,6 @@ img{
 h1{
     background-color: #BEDDFA;
     color: #140853;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
 }

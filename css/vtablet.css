@@ -3,7 +3,7 @@
 }
 
 *{
-    margin: 10px;
+    margin: 15px;
     margin-bottom: 0;
     padding: 0;
     font: small-caps 100%/200% serif;
@@ -17,8 +17,10 @@ h1{
     background-color: #84abd0;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    color: #140853;
 
 }
+
 
 header{
     position: sticky;
@@ -43,6 +45,12 @@ img{
     height:310px;
     border-radius:160px;
     border:10px solid rgb(5, 98, 10);
+}
+
+.div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 

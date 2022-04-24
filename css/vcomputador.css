@@ -3,12 +3,13 @@
 }
 
 *{
-    margin: 10px;
+    margin: 15px;
     margin-bottom: 0;
     padding: 0;
     font: small-caps 100%/200% serif;
 
 }
+
 main{
     background-color: #8ba2b9;
 }
@@ -17,6 +18,7 @@ header{
     position: sticky;
     top: 0;
     text-align: center;
+    
 }
 
 .parrafo1{
@@ -39,6 +41,9 @@ img{
 
 h1{
     background-color: #9ac4ec;
+    font-family: 'Poppins', sans-serif;
+    color: #140853;
+    text-align: center;
 }
 
 
